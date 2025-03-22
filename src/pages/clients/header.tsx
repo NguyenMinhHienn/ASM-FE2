@@ -20,7 +20,7 @@ function HeaderClient() {
           <Link to={"/"}>
             <li className="hover:text-gray-600 cursor-pointer">Home</li>
           </Link>
-          <Link to={"#"}>
+          <Link to={"/shop"}>
             <li className="hover:text-gray-600 cursor-pointer">Shop</li>
           </Link>
           <Link to={"#"}>
@@ -28,6 +28,12 @@ function HeaderClient() {
           </Link>
           <Link to={"#"}>
             <li className="hover:text-gray-600 cursor-pointer">Contact</li>
+          </Link>
+          <Link to={"/register"}>
+            <li className="hover:text-gray-600 cursor-pointer">Register</li>
+          </Link>
+          <Link to={"/login"}>
+            <li className="hover:text-gray-600 cursor-pointer">Login</li>
           </Link>
         </ul>
 
